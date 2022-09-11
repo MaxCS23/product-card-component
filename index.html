@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+<body>
+  <main>
+    <div class="product-container">
+      <section class="product-img">
+        <picture>
+          <source media="(min-width: 650px)" srcset="images\image-product-desktop.jpg">
+          <img src="images\image-product-mobile.jpg" alt="Product image">
+        </picture>
+
+      </section>
+      <section class="product-data">
+        <h2>
+          Perfume
+        </h2>
+
+        <h1 class="product-title">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+
+        <p class="product-summary">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+
+        <ul class="prices">
+          <li>
+            <span class="actual-price">
+              $149.99
+            </span>
+          </li>
+          <li>
+            <span class="old-price">
+              $169.99
+            </span>
+          </li>
+        </ul>
+        <button class="add-cart-btn">
+          <img src="./images/icon-cart.svg" alt="cart icon">
+          <div>
+            Add to Cart
+          </div>
+        </button>
+      </section>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+        Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/max-cortés-6a132b21b" target="_blank" rel="noopener">Max Cortés
+        Serrano</a>.
+    </div>
+  </main>
+</body>
+</html>
